@@ -7,7 +7,7 @@
     <title>Vite App</title>
   </head>
   <body>
-    <h1 class="text-red text-center">Hello Vite!</h1>
+    <h1 class="text-red text-center ">Hello Vite!</h1>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
