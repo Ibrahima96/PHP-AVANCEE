@@ -3,7 +3,8 @@
     $_SESSION['name'] = 'Kamado Tanjiro';
     $_SESSION['email'] = 'kamado@tanjiro.com';
     
-
+  session_unset();// soupretion des variables de la session
+  session_destroy(); // la destruction du session
     ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +21,7 @@
   <?php $myMail =isset($_SESSION['email']) ? "votre mail est {$_SESSION['email'] }" : "Saisir votre adress mail please" ; ?>
     <p><?php echo $myName; ?></p>
     <p><?php echo $myMail; ?></p>
-    <a href="cookie.php">Go to cookie</a>
+    
 
     
 
