@@ -4,6 +4,7 @@
     
     $_SESSION['name'] = 'Kamado Tanjiro';
     $_SESSION['email'] = 'kamado@tanjiro.com';
+    
 
     ?>
 <head>
@@ -19,6 +20,8 @@
     <p><?php echo $myName; ?></p>
     <p><?php echo $myMail; ?></p>
     <a href="cookie.php">Go to cookie</a>
+
+    i
     
 </body>
 </html>
