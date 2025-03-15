@@ -22,7 +22,7 @@
     <p><?php echo $myMail; ?></p>
     <a href="cookie.php">Go to cookie</a>
 
-    i
     
+
 </body>
 </html>
