@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <?php    
-    
+    session_start();
     $_SESSION['name'] = 'Kamado Tanjiro';
     $_SESSION['email'] = 'kamado@tanjiro.com';
     
