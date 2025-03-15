@@ -1,12 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-    <?php    
+<?php    
     session_start();
     $_SESSION['name'] = 'Kamado Tanjiro';
     $_SESSION['email'] = 'kamado@tanjiro.com';
     
 
     ?>
+<!DOCTYPE html>
+<html lang="en">
+   
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
